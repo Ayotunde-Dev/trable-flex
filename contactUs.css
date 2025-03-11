@@ -1,0 +1,7 @@
+section {
+    display: flex;
+    justify-content: left;
+}
+ol {
+    list-style: none;
+}

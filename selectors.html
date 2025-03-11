@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    p {
+        color: red;
+    }
+
+    .first-paragraph {
+        color: blue;
+    }
+
+    .second-para {
+        color: green;
+    }
+
+    .big {
+        background-color: red;
+    }
+
+    #last-paragraph {
+        background-color: aquamarine;
+
+    }
+
+    div h1 {
+        color: purple;
+    }
+
+    #second-h h2 {
+        color: bisque;
+    }
+
+    /* box styling */
+    .box {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        font-size: 10px;
+        font-weight: 800;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+    }
+
+
+    .box-2 {
+        background-color: green;
+        order: -1;
+    }
+
+    .box-container {
+        border: 1px solid purple;
+        padding: 10px;
+        display: flex;
+        /* justify-content: center;
+       align-items: center; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>a heading</h1>
+    </div>
+    <div id="second-h">
+        <h2>second heading heading</h1>
+    </div>
+    <p class="first-paragraph big">Hello</p>
+    <p class="second-para">How are you</p>
+    <p id="last-paragraph">Divide by you</p>
+
+
+    <!-- a box -->
+    <section class="box-container">
+
+        <div class="box box-1">
+            Box 1
+        </div>
+        <div class="box box-2">Box 2</div>
+
+    </section>
+</body>
+
+</html>
