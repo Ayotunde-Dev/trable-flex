@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.puzzle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 700px;
+    background-color: black;
+}
+
+#e {
+    background-color: aqua;
+    order: 3;
+}
+
+#d {
+    background-color: grey;
+    order: 1;
+}
+
+#c {
+    background-color: yellow;
+    order: 5;
+}
+
+#a {
+    background-color: blue;
+    order: 6;
+}
+
+#h {
+    background-color: darkblue;
+    order: 7;
+
+}
+
+#b {
+    background-color: white;
+    order: 8;
+}
+
+#g {
+    background-color: azure;
+    order: 2;
+}
+
+#f {
+    background-color: blanchedalmond;
+    order: 9;
+}
+
+
+#i {
+    background-color: darksalmon;
+    order: 4;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 33.3%;
+    height: 33.3%;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 24px;
+}
+
+
