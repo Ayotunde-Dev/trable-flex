@@ -39,7 +39,7 @@ body{
 #thethree {
     display: flex;
     align-items:start;
-    justify-content: 
+    justify-content: space-evenly;
 }
 
 #two {
